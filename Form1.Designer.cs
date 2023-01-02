@@ -66,6 +66,7 @@
             this.CheckButton1.TabIndex = 2;
             this.CheckButton1.Text = "Check!";
             this.CheckButton1.UseVisualStyleBackColor = true;
+            this.CheckButton1.Click += new System.EventHandler(this.CheckButton1_Click);
             // 
             // FileNameLabel1
             // 
@@ -84,6 +85,7 @@
             this.SelectFileButton1.TabIndex = 4;
             this.SelectFileButton1.Text = "Select file";
             this.SelectFileButton1.UseVisualStyleBackColor = true;
+            this.SelectFileButton1.Click += new System.EventHandler(this.SelectFileButton1_Click);
             // 
             // SelectFileButton2
             // 
@@ -93,6 +95,7 @@
             this.SelectFileButton2.TabIndex = 9;
             this.SelectFileButton2.Text = "Select file";
             this.SelectFileButton2.UseVisualStyleBackColor = true;
+            this.SelectFileButton2.Click += new System.EventHandler(this.SelectFileButton2_Click);
             // 
             // FileNameLabel2
             // 
@@ -112,6 +115,7 @@
             this.CheckButton2.TabIndex = 7;
             this.CheckButton2.Text = "Check!";
             this.CheckButton2.UseVisualStyleBackColor = true;
+            this.CheckButton2.Click += new System.EventHandler(this.CheckButton2_Click);
             // 
             // StringTextBox2
             // 
